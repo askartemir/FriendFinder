@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Survey for Friend Finder</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- CSS Chosen -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.5/chosen.css">
+	<!-- Chosen jQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.5/chosen.jquery.js"></script>
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="container">
+		<h2>Survey Questions</h2>
+		<h4><strong>User Information</strong></h4>
+		
+		<h5>Full Name</h5>
+		<input type="text" id="name" class="form-control" required>
+		<h5>Photo Image URL</h5>
+		<input type="text" id="photo" class="form-control" required>
+
+		<br>
+
+		<h4><strong>First Question:</strong></h4>
+		<h5>Do you seek adventure or do you like to just chill?</h5>
+		<select class="chosen-select" id="Q1">
+			<option value=""></option>
+			<option value="1">1 (Do not Agree at All)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5 (Strongly Agree)</option>
+		</select>
+
+		<h4><strong>Second Question:</strong></h4>
+		<h5>Parks and Rec is a great show.</h5>
+		<select class="chosen-select" id="Q2">
+			<option value=""></option>
+			<option value="1">1 (Do not Agree at All)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5 (Strongly Agree)</option>
+		</select>
+
+		<h4><strong>Third Question:</strong></h4>
+		<h5>I like our current president.</h5>
+		<select class="chosen-select" id="Q3">
+			<option value=""></option>
+			<option value="1">1 (Do not Agree at All)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5 (Strongly Agree)</option>
+		</select>
+
+		<h4><strong>Fourth Question:</strong></h4>
+		<h5>It is better to be smart rather than attractive.</h5>
+		<select class="chosen-select" id="Q4">
+			<option value=""></option>
+			<option value="1">1 (Do not Agree at All)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5 (Strongly Agree)</option>
+		</select>
+
+		<h4><strong>Fifth Question:</strong></h4>
+		<h5>Sometimes it is better to lie than hurt somebody's feelings with the truth.</h5>
+		<select class="chosen-select" id="Q5">
+			<option value=""></option>
+			<option value="1">1 (Do not Agree at All)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5 (Strongly Agree)</option>
+		</select>
+
+		<h4><strong>Sixth Question:</strong></h4>
+		<h5>Being a good politician requires deception.</h5>
+		<select class="chosen-select" id="Q6">
+			<option value=""></option>
+			<option value="1">1 (Do not Agree at All)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5 (Strongly Agree)</option>
+		</select>
+
+		<h4><strong>Seventh Question:</strong></h4>
+		<h5>Do you love to watch football?</h5>
+		<select class="chosen-select" id="Q7">
+			<option value=""></option>
+			<option value="1">1 (Do not Agree at All)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5 (Strongly Agree)</option>
+		</select>
+
+		<h4><strong>Eighth Question:</strong></h4>
+		<h5>The New England Patriots are the best football team in the history of the NFL.</h5>
+		<select class="chosen-select" id="Q8">
+			<option value=""></option>
+			<option value="1">1 (Do not Agree at All)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5 (Strongly Agree)</option>
+		</select>
+
+		<h4><strong>Ninth Question:</strong></h4>
+		<h5>How important is discipline in your daily life?</h5>
+		<select class="chosen-select" id="Q9">
+			<option value=""></option>
+			<option value="1">1 (Not Important at All)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5 (Super important)</option>
+		</select>
+
+		<h4><strong>Tenth Question:</strong></h4>
+		<h5>Family is the most important thing in life.</h5>
+		<select class="chosen-select" id="Q10">
+			<option value=""></option>
+			<option value="1">1 (Do not Agree at All)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5 (Strongly Agree)</option>
+		</select>
+
+		<br>
+
+		<!-- Here is a button for submitting answers -->
+		<button type="submit" class="btn btn-success btn-lg btn-block" id="submit"><i class="fa fa-arrow-alt-circle-right"></i>Submit Answers</button>
+
+		<br>
+
+		<footer class="footer">
+			<div class="container">
+				<p><a href="/api/friends" target="_blank">Friends List API </a></p>
+				<p><a href="https://github.com/askartemir/FriendFinder" target="_blank">Github Repository</a></p>
+			</div>
+		</footer>
+	</div>
+
+	<!-- need to use modal because it is a scripted effect that allows to overlay a small element over a website. The primary benefit of modal boxes is that they avoid the need to use conventional window pop ups or page reloads. -->
+
+	<div id="results-modal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<!-- here we set up the content for the modal box -->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h1 class="modal-title">Match Up</h1>
+				</div>
+				<div class="modal-body">
+					<h1 id="match-name"></h1>
+					<img id="match-img" src="http://images.indianexpress.com/2018/05/deadpool-2-7594.jpg">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Exit</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+	<script type="text-javascript">
+
+		var config = {
+      		".chosen-select": {},
+      		".chosen-select-deselect": {allow_single_deselect: true},
+      		".chosen-select-no-single": {disable_search_threshold: 10},
+      		".chosen-select-no-results": {no_results_text: "No results found."},
+      		".chosen-select-width": {width: "90%"}
+    	};
+    	for (var selector in config) {
+      		$(selector).chosen(config[selector]);
+    	}
+		//grab information from form
+		$("#submit").on("click", function(event) {
+			event.preventDefault();
+
+			//lets get a validation system so only valid inputs are allowed
+			function validateForm() {
+				var isValid = true;
+				$(".form-control").each(function() {
+					if($(this).val() === "") {
+						isValid = false;
+					}
+				});
+
+				$(".chosen-select").each(function() {
+					if($(this).val() === "") {
+						isValid = false;
+					}
+				});
+				return isValid;
+			}
+			//if information input gets past form-validation...
+			if(validateForm() == true) {
+				//put information into a user object
+				var userInfo = {
+					name: $("#name").val();
+					photo: $("#photo").val();
+					scores: [
+						$("#Q1").val();
+						$("#Q2").val();
+						$("#Q3").val();
+						$("#Q4").val();
+						$("#Q5").val();
+						$("#Q6").val();
+						$("#Q7").val();
+						$("#Q8").val();
+						$("#Q9").val();
+						$("#Q10").val();
+					]
+				};
+				var currentURL = window.location.origin;
+
+				$.post(currentURL + "/api/friends", userInfo, function(data) {
+					$("#match-name").text(data.name);
+					$("#match-img").attr("src", data.photo);
+
+					$("#results-modal").modal("toggle");
+				});
+			}
+			else{
+				alert("All fields must be filled out.");
+			}
+			return false;
+		});
+	</script>
+
+</html>
